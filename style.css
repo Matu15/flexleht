@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(192, 192, 192);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: fit-content;
+    
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item img{
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+  
+    .item{
+        height: fit-content;
+        background-color: white;
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .item img{
+        width: 100%;
+    }
+
+}
